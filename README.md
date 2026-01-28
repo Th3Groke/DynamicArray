@@ -7,11 +7,11 @@ A high-performance, generic **Dynamic Array** implementation in C++. This librar
 **DynamicArray** is a C++ template library designed to mimic `std::vector` while adding built-in persistence and optimized sorting. [cite_start]It uses `std::unique_ptr` for safe memory management [cite: 68] [cite_start]and implements the "Rule of Five" to handle deep copying and move semantics correctly [cite: 78-88].
 
 ### Key Features
-* [cite_start]**Generic & Type-Safe**: Works with primitives (`int`, `float`) and custom objects[cite: 68].
-* [cite_start]**Advanced Sorting**: Implements **Introsort** (Introspective Sort), a hybrid algorithm that switches between Quicksort, Heapsort, and Insertion Sort for optimal performance [cite: 132-134].
-* [cite_start]**Persistence**: Built-in `Save()` and `Load()` methods for binary serialization [cite: 98-105].
-* [cite_start]**STL Compatibility**: Custom iterators allow usage with standard algorithms like `std::for_each` or range-based for loops [cite: 69-74].
-* [cite_start]**Exception Safety**: Bounds checking prevents invalid memory access[cite: 89].
+* **Generic & Type-Safe**: Works with primitives (`int`, `float`) and custom objects.
+* **Advanced Sorting**: Implements **Introsort** (Introspective Sort), a hybrid algorithm that switches between Quicksort, Heapsort, and Insertion Sort for optimal performance.
+* **Persistence**: Built-in `Save()` and `Load()` methods for binary serialization.
+* **STL Compatibility**: Custom iterators allow usage with standard algorithms like `std::for_each` or range-based for loops.
+* **Exception Safety**: Bounds checking prevents invalid memory access.
 
 ## 📂 Project Structure
 
